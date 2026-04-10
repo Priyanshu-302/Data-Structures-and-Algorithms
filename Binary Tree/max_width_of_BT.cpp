@@ -53,7 +53,7 @@ int main()
     Solution solution;
     int maxWidth = solution.widthOfBinaryTree(root);
 
-    cout << "Maximum Width of the Binary Tree: " << maxWidth << endl;
+    cout << "Maximum Width of the Binary Tree- " << maxWidth << endl;
 
     return 0;
 }
