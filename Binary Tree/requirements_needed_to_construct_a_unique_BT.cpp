@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+public:
+    bool isPossible(int a, int b)
+    {
+        if ((a == 1 && b == 3) || (a == 3 && b == 1) || a == b)
+            return false;
+        return true;
+    }
+};
+
+int main()
+{
+    Solution sol;
+    cout << sol.isPossible(1, 2) << endl;
+    return 0;
+}
